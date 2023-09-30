@@ -1,0 +1,2 @@
+recursive-include spekulatio/data *.yaml
+include LICENSE README.md

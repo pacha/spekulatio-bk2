@@ -1,0 +1,45 @@
+[project]
+name = "spekulatio"
+version = "0.1.0"
+authors = [
+    {name="Andrés Sopeña Pérez", email="code@ehmm.org"},
+]
+description = "Command line tool to transform file trees."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click>=8.1.5",
+    "Jinja2>=3.1.2",
+    "PyYAML>=6.0.1",
+    "rich>=13.5.2",
+    "typeguard>=4.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pacha/spekulatio"
+"Bug Tracker" = "https://github.com/pacha/spekulatio/issues"
+
+[project.scripts]
+spekulatio = "spekulatio.cli:spekulatio"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+log_cli = false
+log_cli_level = "INFO"
+log_cli_format = "[%(levelname)s] %(message)s"
+
+[tool.mypy]
+ignore_missing_imports = true
