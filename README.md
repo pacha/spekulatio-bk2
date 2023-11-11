@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/pacha/spekulatio/main/docs/logo-header.png" alt="logo" width="100%">
+    <img src="https://raw.githubusercontent.com/pacha/spekulatio/main/docs/spekulatio-logo.png" alt="logo" width="100%">
 </p>
 
 spekulatio
@@ -10,7 +10,10 @@ spekulatio
 ![Code formatting](https://github.com/pacha/spekulatio/actions/workflows/code-formatting.yaml/badge.svg)
 ![Supported Python versions](https://img.shields.io/pypi/pyversions/spekulatio.svg)
 
-_Command line tool to transform file trees._
+_Transform file trees_
 
-**WORK IN PROGRESS. NOT READY TO USE.**
+**Work in progress**
 
+## License
+
+Spekulatio is available under the MIT license.

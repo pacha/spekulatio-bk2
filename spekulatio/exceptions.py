@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class SpekulatioException(Exception):
     """Spekulatio base exeption."""
 
@@ -23,4 +20,3 @@ class SpekulatioInternalError(SpekulatioError):
     """Exeption for internal, unexpected errors."""
 
     pass
-
