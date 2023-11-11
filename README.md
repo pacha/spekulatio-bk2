@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/pacha/spekulatio/main/docs/spekulatio-logo.png" alt="logo" width="100%">
+    <img src="https://raw.githubusercontent.com/pacha/spekulatio/main/docs/spekulatio-logo.png" alt="logo">
 </p>
 
 spekulatio
